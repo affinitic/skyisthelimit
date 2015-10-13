@@ -9,13 +9,12 @@ responsive css
 http://mydevice.io/devices/
 */
 
-/*** DESKTOP ***/
+/*** DESKTOP  AU DELA DE 1024***/
 @media screen and (min-width:1024px){
         body{
         margin-top:4%;
-        font-size:16px;
-        line-height:24px;
         background-image:url(images/sky_00.jpg);
+        background-size:cover;
         }
 
         #wrapper{
@@ -39,12 +38,17 @@ http://mydevice.io/devices/
         }
 
         #citation{
-            top:46%;
+            bottom:0px;
             width:80%;
         }
 
+        #citation .citation-texte{
+            font-size:40px;
+            line-height:60px;
+        }
+
         #citation .citation-auteur{
-            font-size:0.8em;
+            font-size:12px;
         }
 
         #contact{
@@ -55,31 +59,11 @@ http://mydevice.io/devices/
 }
 
 
-@media screen and (min-width:768px) and (max-width:1023px){
-        body{
-        font-size:16px;
-        line-height:24px;
-        }
-
-        #logo {
-        }
-
-        #wrapper{
-        }
-
-        #citation{
-        }
-
-        #contact{
-        }
-}
-
-
 /**** IPAD MODE PORTRAIT (vertical) ****/
-@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
         body{
             background-image:url(images/sky_00.jpg);
-            background-position:-760px top;
+            background-size:cover;
         }
 
         #logo {
@@ -90,7 +74,16 @@ http://mydevice.io/devices/
         #wrapper{
             width:100%;
             height:100%;
-            background-color:transparent;
+            border:1px solid rgba(255,0,0,1);
+            border-radius:0px 45px 0px 55px;
+             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100&amp;0.18+0,0.09+53,0.18+100;White+Gloss+%232 */
+            background: -moz-linear-gradient(top,  rgba(255,255,255,0.18) 0%, rgba(243,243,243,0.1) 50%, rgba(237,237,237,0.1) 51%, rgba(238,238,238,0.09) 53%, rgba(255,255,255,0.18) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.18)), color-stop(50%,rgba(243,243,243,0.1)), color-stop(51%,rgba(237,237,237,0.1)), color-stop(53%,rgba(238,238,238,0.09)), color-stop(100%,rgba(255,255,255,0.18))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,0.18) 0%,rgba(243,243,243,0.1) 50%,rgba(237,237,237,0.1) 51%,rgba(238,238,238,0.09) 53%,rgba(255,255,255,0.18) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(255,255,255,0.18) 0%,rgba(243,243,243,0.1) 50%,rgba(237,237,237,0.1) 51%,rgba(238,238,238,0.09) 53%,rgba(255,255,255,0.18) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(255,255,255,0.18) 0%,rgba(243,243,243,0.1) 50%,rgba(237,237,237,0.1) 51%,rgba(238,238,238,0.09) 53%,rgba(255,255,255,0.18) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(255,255,255,0.18) 0%,rgba(243,243,243,0.1) 50%,rgba(237,237,237,0.1) 51%,rgba(238,238,238,0.09) 53%,rgba(255,255,255,0.18) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2effffff', endColorstr='#2effffff',GradientType=0 ); /* IE6-9 */
         }
 
         #citation{
@@ -118,10 +111,10 @@ http://mydevice.io/devices/
 
 
 /**** IPAD MODE PAYSAGE (horizontal) ****/
-@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
         body{
             background-image:url(images/sky_00.jpg);
-            background-position:-850px top;
+            background-size:cover;
         }
 
         #logo {
@@ -132,7 +125,16 @@ http://mydevice.io/devices/
         #wrapper{
             width:100%;
             height:100%;
-            background-color:transparent;
+            border:1px solid rgba(255,0,0,1);
+             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100&amp;0.18+0,0.09+53,0.18+100;White+Gloss+%232 */
+            background: -moz-linear-gradient(top,  rgba(255,255,255,0.18) 0%, rgba(243,243,243,0.1) 50%, rgba(237,237,237,0.1) 51%, rgba(238,238,238,0.09) 53%, rgba(255,255,255,0.18) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.18)), color-stop(50%,rgba(243,243,243,0.1)), color-stop(51%,rgba(237,237,237,0.1)), color-stop(53%,rgba(238,238,238,0.09)), color-stop(100%,rgba(255,255,255,0.18))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,0.18) 0%,rgba(243,243,243,0.1) 50%,rgba(237,237,237,0.1) 51%,rgba(238,238,238,0.09) 53%,rgba(255,255,255,0.18) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(255,255,255,0.18) 0%,rgba(243,243,243,0.1) 50%,rgba(237,237,237,0.1) 51%,rgba(238,238,238,0.09) 53%,rgba(255,255,255,0.18) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(255,255,255,0.18) 0%,rgba(243,243,243,0.1) 50%,rgba(237,237,237,0.1) 51%,rgba(238,238,238,0.09) 53%,rgba(255,255,255,0.18) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(255,255,255,0.18) 0%,rgba(243,243,243,0.1) 50%,rgba(237,237,237,0.1) 51%,rgba(238,238,238,0.09) 53%,rgba(255,255,255,0.18) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2effffff', endColorstr='#2effffff',GradientType=0 ); /* IE6-9 */
+
         }
 
         #citation{
@@ -141,7 +143,7 @@ http://mydevice.io/devices/
         }
 
         #citation .citation-texte{
-            font-size:60px;
+            font-size:30px;
             line-height:84px;
         }
 
@@ -164,10 +166,11 @@ http://mydevice.io/devices/
 
 
 
-/**** MOBILE ****/
+/**** MOBILE MODE PORTRAIT ****/
 @media only screen and (min-device-width : 320px) and (max-device-width : 560px) and (orientation : portrait){
         body{
             background-image:url(images/sky_00.jpg);
+            background-size:cover;
             background-position:-800px top;
         }
 
@@ -206,10 +209,12 @@ http://mydevice.io/devices/
 }
 
 
+/**** MOBILE MODE PAYSAGE ****/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
         body{
                 background-image:url(images/sky_00.jpg);
-                background-position:0px top;
+                background-size:cover;
+                background-position:0px 20px;
             }
 
             #logo {
