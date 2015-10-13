@@ -23,6 +23,11 @@ color:#fff;
 font-family:"quicksandregular";
 }
 
+a{
+color:#00bfff;
+text-decoration:none;
+}
+
 #wrapper{
 margin:auto;
 }
