@@ -33,8 +33,9 @@ http://mydevice.io/devices/
         }
 
         #logo {
-            top:28%;
-            left:79%;
+            top:0%;
+            left:75%;
+            background-image:url(images/logo.png);
         }
 
         #citation{
@@ -48,7 +49,7 @@ http://mydevice.io/devices/
         }
 
         #citation .citation-auteur{
-            font-size:12px;
+            font-size:22px;
         }
 
         #contact{
@@ -69,6 +70,7 @@ http://mydevice.io/devices/
         #logo {
             top:100px;
             left:450px;
+            background-image:url(images/logo.png);
         }
 
         #wrapper{
@@ -120,6 +122,8 @@ http://mydevice.io/devices/
         #logo {
             top:100px;
             left:450px;
+            background-image:url(images/logo_150.png);
+            
         }
 
         #wrapper{
@@ -175,8 +179,9 @@ http://mydevice.io/devices/
         }
 
         #logo {
-            top:280px;
-            left:450px;
+            top:360px;
+            left:300px;
+            background-image:url(images/logo.png);
         }
 
         #wrapper{
@@ -186,7 +191,7 @@ http://mydevice.io/devices/
         }
 
         #citation{
-            top:600px;
+            top:360px;
             width:90%;
         }
 
@@ -196,7 +201,7 @@ http://mydevice.io/devices/
         }
 
         #citation .citation-auteur{
-            font-size:18px;
+            font-size:32px;
         }
 
         #contact{
@@ -218,8 +223,11 @@ http://mydevice.io/devices/
             }
 
             #logo {
-                top:0px;
-                left:730px;
+                width:200px;
+                height:162px;
+                top:-200px;
+                left:70px;
+                background-image:url(images/logo_200.png);
             }
 
             #wrapper{
@@ -229,8 +237,8 @@ http://mydevice.io/devices/
             }
 
             #citation{
-                top:-100px;
-                left:-270px;
+                top:-50px;
+                left:00px;
                 width:400px;
             }
 
@@ -251,13 +259,3 @@ http://mydevice.io/devices/
                 padding:10px 0px;
             }
 }
-
-
-
-
-
-
-
-
-
-
